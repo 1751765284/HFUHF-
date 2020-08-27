@@ -1,0 +1,7 @@
+h
+speed 1000
+exec device = STM32F103C8
+loadbin HFSafetyGateDP_V2_8.hex 0x8000000
+r
+g
+q
